@@ -1,0 +1,16 @@
+.aboutImg img {width: 100%;}
+
+.AboutSec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutImg {flex-basis: 49%;}
+
+.aboutText {
+    flex-basis: 48%;
+}
+.aboutText h3{
+    color: rgba(0, 0, 255, 0.605);
+}

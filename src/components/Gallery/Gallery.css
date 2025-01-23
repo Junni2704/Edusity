@@ -1,0 +1,29 @@
+.gal {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.galImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galImg img {
+    width: 24%;
+    border-radius: 10px;
+}
+button {
+    margin: 20px auto 0;
+    background: darkblue;
+    color: white;
+    padding: 18px 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 60px;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}

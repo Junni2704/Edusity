@@ -1,0 +1,51 @@
+.programs {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.programs img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Prog {
+    flex-basis: 33%;
+    position: relative;
+}
+.courseProg{
+    margin: 0px 0;
+    padding-top: 0;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background: #00008b6e;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 0%;
+    transition: 0.4s;
+}
+
+.caption img {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.Prog:hover .caption{
+    opacity: 1;
+    border-radius: 10px;
+    flex-basis: 33%;
+
+}

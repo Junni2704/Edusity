@@ -1,0 +1,80 @@
+/* .tesInfo {
+    display: flex;
+    align-items: center;
+}
+
+.tesInfo img {
+    width: 100%;
+    border-radius: 100px;
+    border: 5px solid darkblue;
+}
+
+.tesInfo .tesImg {width: 16%;}
+
+.tesText {
+    margin: 0 0 0 20px;
+}
+
+.Testimonials li {
+    list-style: none;
+    margin: 0 20px 0 0px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.Testimonials ul {
+    display: flex;
+}
+
+.sliderBtn {
+    position: relative;
+}
+
+.backbtn {
+    position: absolute;
+    left: -25px;
+    padding: 11px 11px;
+    background: darkblue;
+    line-height: 0;
+    border-radius: 30px;
+    transform: translateY(140px);
+    cursor: pointer;
+}
+.frntbtn {
+    position: absolute;
+    right: -8px;
+    padding: 11px 11px;
+    background: darkblue;
+    line-height: 0;
+    border-radius: 30px;
+    transform: translateY(-180px);
+    cursor: pointer;
+}
+.sliderBtn .backbtn img {
+    width: 20px;
+}
+.sliderBtn .frntbtn img {
+    width: 20px;
+} */
+
+.Testimonials{
+    position: relative;
+    padding: 0 80px;
+    margin: 80px auto;
+}
+.bckBtn, .frntBtn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: darkblue;
+}
+.bckBtn{
+    right: auto;
+    left: 0;
+}

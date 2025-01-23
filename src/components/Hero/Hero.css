@@ -1,0 +1,31 @@
+.banner{
+    width: 100%;
+    background-image: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/hero.png');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerText {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+}
+
+.bannerText h1 {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.bannerText p {
+    margin: 0 0 10px;
+}
+
+.bannerText .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+}

@@ -1,0 +1,9 @@
+.title {
+    text-align: center;
+    margin-top: 40px;
+}
+.title p{
+    color: darkblue;
+    font-weight: 600;
+    font-size: 20px;
+}
