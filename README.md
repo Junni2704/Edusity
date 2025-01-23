@@ -1,2 +1,2 @@
 # Edusity
-A react Native Landing Page
+A React Js Landing Page
