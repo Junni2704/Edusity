@@ -1,67 +1,6 @@
-/* .tesInfo {
-    display: flex;
-    align-items: center;
-}
-
-.tesInfo img {
-    width: 100%;
-    border-radius: 100px;
-    border: 5px solid darkblue;
-}
-
-.tesInfo .tesImg {width: 16%;}
-
-.tesText {
-    margin: 0 0 0 20px;
-}
-
-.Testimonials li {
-    list-style: none;
-    margin: 0 20px 0 0px;
-    box-shadow: 0px 0px 10px 0px #ccc;
-    padding: 40px 30px;
-    border-radius: 10px;
-}
-
-.Testimonials ul {
-    display: flex;
-}
-
-.sliderBtn {
-    position: relative;
-}
-
-.backbtn {
-    position: absolute;
-    left: -25px;
-    padding: 11px 11px;
-    background: darkblue;
-    line-height: 0;
-    border-radius: 30px;
-    transform: translateY(140px);
-    cursor: pointer;
-}
-.frntbtn {
-    position: absolute;
-    right: -8px;
-    padding: 11px 11px;
-    background: darkblue;
-    line-height: 0;
-    border-radius: 30px;
-    transform: translateY(-180px);
-    cursor: pointer;
-}
-.sliderBtn .backbtn img {
-    width: 20px;
-}
-.sliderBtn .frntbtn img {
-    width: 20px;
-} */
-
 .Testimonials{
     position: relative;
-    padding: 0 80px;
-    margin: 80px auto;
+    margin: 0px auto;
 }
 .bckBtn, .frntBtn{
     position: absolute;
@@ -73,8 +12,56 @@
     border-radius: 50%;
     cursor: pointer;
     background: darkblue;
+    z-index: 9;
 }
 .bckBtn{
     right: auto;
-    left: 0;
+    left: 230px;
+    
+}
+img.frntBtn {
+    right: 230px;
+}
+.slider {
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.9s;
+}
+
+.slider ul li {
+    list-style: none;
+    width: 50%;
+    padding: 10px;
+}
+
+.sliide {
+    box-shadow: 0 0 11px 0px #ccc;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.userInfo img {
+    width: 80px;
+    border-radius: 80px;
+    border: 3px solid darkblue;
+    margin: 0 20px 0 0;
+}
+
+.userInfo h3{
+    color: darkblue;
+}
+
+.slider p {
+    font-size: 16px;
 }
