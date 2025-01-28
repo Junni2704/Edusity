@@ -18,7 +18,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    margin: 10px 0 0px 0;
+    margin: 20px 0 0px 0;
 }
 
 .left_cont li img {
@@ -53,6 +53,10 @@ textarea {
     box-shadow: 0 0 10px 0 #ccc;
 }
 
-button.btn {
+.btn1 {
     width: 100%;
+}
+.rgt_cont span{
+    display: block;
+    margin: 20px 0;
 }

@@ -1,0 +1,19 @@
+.line {
+    border-top: 2px solid #000;
+}
+
+.footer {margin: 100px 0 0px 0;}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #000;
+}
+
+.foot li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}

@@ -9,7 +9,7 @@ import icon3 from '/Users/junaidahmed/vite-project/src/assets/program-icon-3.png
 
 function Programs() {
   return (
-    <div className='courseProg container'>
+    <div className='courseProg container' id='Course'>
       <div className='programs'>
       <div className='Prog'>
         <img src={prog1} alt="" />
